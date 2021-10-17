@@ -1,0 +1,29 @@
+.dash-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-user-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.dash-card {
+  overflow: hidden;
+  margin: 0 10px;
+}
+
+.dash-card-header {
+  background: black;
+  color: white;
+  width: 100%;
+}
+
+.table-parent {
+  padding: 20px;
+}
+
+.table-container {
+  max-width: 95vw;
+}

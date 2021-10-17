@@ -1,0 +1,8 @@
+.user-form {
+  width: 90%;
+  margin: 20px 0px;
+}
+
+.user-form > button {
+  margin: 10px;
+}

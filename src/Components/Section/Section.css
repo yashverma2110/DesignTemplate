@@ -1,0 +1,36 @@
+.root {
+  padding: 10px;
+}
+
+.section-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.section-image {
+  width: 500px;
+  max-width: 90vw;
+  height: 250px;
+  padding: 0% 5%;
+}
+
+.section-text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0px 20px;
+}
+
+.title {
+  font-weight: 700 !important;
+  letter-spacing: 1px;
+  font-size: 1.3em !important;
+  text-transform: uppercase;
+  margin-bottom: 20px !important;
+}
+
+.desc {
+  font-size: 1em !important;
+  font-weight: 500 !important;
+}

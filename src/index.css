@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  position: relative;
+}
+
+iframe {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  border: none;
+}
+
+iframe {
+  display: block;
+  width: 100%;
+  border: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

@@ -1,0 +1,182 @@
+* {
+  font-family: "KoHo", sans-serif !important;
+}
+
+.content {
+  min-height: 100vh;
+}
+
+.drawer-list-item {
+  text-align: center;
+  font-weight: 600 !important;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.modal-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-form {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px;
+}
+
+.form-section-title {
+  background: black;
+  padding: 10px;
+  color: white;
+  margin: 0px -10px 10px -10px !important;
+}
+
+.table-click-row {
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.table-click-row:hover {
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75) inset;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75) inset;
+  -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75) inset;
+}
+
+.modal-form-content {
+  width: 350px;
+}
+
+.modal-form > div {
+  margin: 10px 0;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.call-phone {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  transition: all 0.4s;
+  transform: center bottom;
+}
+
+.call-phone:hover {
+  background: black;
+  color: white;
+}
+
+.fl-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fl-ce {
+  display: flex;
+  justify-content: center;
+}
+
+.text-ce {
+  text-align: center;
+}
+
+.para {
+  padding: 0px 30px;
+  font-weight: 500 !important;
+}
+
+.align-right {
+  justify-content: flex-end !important;
+  margin-right: 20px;
+}
+
+.title-container {
+  text-align: center;
+  margin: 40px 0px;
+}
+
+.title-co {
+  margin: 20px 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.desc-co {
+  padding: 20px 40px;
+  letter-spacing: 1px;
+
+  font-weight: 500 !important;
+}
+
+.form-control-wrap {
+  width: 100%;
+  margin: 10px !important;
+}
+
+.field-join {
+  display: flex;
+  margin: 10px !important;
+  justify-content: space-between;
+}
+
+.field-join > .form-control-mr {
+  margin-right: 10px;
+}
+
+.form-label {
+  margin-bottom: 5px;
+  color: black !important;
+  font-size: 0.9em !important;
+}
+
+.form-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 50px);
+  background-image: url("https://res.cloudinary.com/yashwork2110/image/upload/v1620748330/gruhamtiamor/assets/chefs-kitchen_-_4_gugqox.webp");
+  background-repeat: no-repeat;
+  background-size: 100vw calc(100vh - 50px);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-container > .submit-btn {
+  margin-top: 10px;
+  width: 300px;
+}
+
+.form-container > .input-field {
+  margin: 10px 0px;
+  width: 300px;
+}
+
+.form-field {
+  width: 100%;
+}
+
+.title-button-container {
+  margin: 20px 0;
+}
+
+.title-button-container > button {
+  margin: 0 10px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}

@@ -1,0 +1,80 @@
+.footer {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url("../../assets/imgs/kitchen-3857476_1920.jpg");
+  background-size: 100vw 100%;
+  border-radius: 0 !important;
+  color: black !important;
+  padding: 20px;
+}
+
+.footer-form {
+  display: flex;
+  align-items: center;
+}
+
+.footer-form {
+  transform: scaleY(0.7);
+}
+
+.footer-form > button {
+  margin-top: 10px;
+  transform: rotate(-30deg);
+}
+
+.foo-email-field {
+  width: 300px;
+  margin-top: 20px !important;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
+}
+
+.foo-logo {
+  width: auto;
+  height: 200px;
+  padding: 10px 0px;
+}
+
+.foo-email {
+  height: 100%;
+}
+
+.foo-detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px !important;
+}
+
+.foo-detail > a {
+  text-decoration: none;
+  color: black;
+}
+
+.foo-sptop {
+  margin-top: 10px;
+}
+
+.foo-border-top {
+  border: none;
+  padding-top: 0;
+}
+
+.foo-bg-strip {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 5px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .foo-sptop {
+    margin-top: 20px;
+  }
+
+  .foo-border-top {
+    border-top: 1px solid white;
+    padding-top: 10px;
+  }
+
+  .foo-email-field {
+    width: 250px;
+  }
+}

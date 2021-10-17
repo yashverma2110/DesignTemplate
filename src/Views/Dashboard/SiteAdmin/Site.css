@@ -1,0 +1,16 @@
+.site-heading {
+  background: black;
+  color: white;
+  margin: 10px !important;
+  padding: 20px 10px;
+  border-radius: 8px;
+}
+
+.site-btn {
+  margin: 10px !important;
+}
+
+.site-anchor {
+  color: white;
+  text-decoration: none;
+}

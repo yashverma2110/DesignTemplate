@@ -1,0 +1,21 @@
+.portfolio-card {
+  margin: 10px;
+}
+
+.portfolio-title {
+  background: black;
+  color: white;
+}
+
+.portfolio-img {
+  margin-right: 10px;
+}
+
+.portfolio-actions {
+  display: flex;
+  align-items: center;
+}
+
+.portfolio-actions > button {
+  margin-top: 25px;
+}

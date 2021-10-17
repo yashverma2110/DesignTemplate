@@ -1,0 +1,48 @@
+.team-container {
+  margin: 40px 0px;
+}
+
+.team-card {
+  display: flex;
+  margin: 30px;
+}
+
+.team-profile-img-container {
+  position: relative;
+}
+
+.team-logo-trans {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  width: 120px;
+  height: 120px;
+}
+
+.team-profile-img {
+  min-height: 350px;
+  min-width: 250px;
+}
+
+.team-card-header {
+  background: #000;
+  color: white;
+}
+
+.member-name {
+}
+
+.member-role {
+  font-weight: 500 !important;
+}
+
+.member-summary {
+  font-weight: 500 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .team-card {
+    display: block;
+    margin: 20px 15px;
+  }
+}

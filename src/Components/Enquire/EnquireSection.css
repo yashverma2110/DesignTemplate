@@ -1,0 +1,15 @@
+.text-section {
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.enq-title {
+  font-size: 1.5em !important;
+
+  font-weight: 600 !important;
+}
+
+.enq-details {
+  color: black;
+  font-weight: 500 !important;
+}

@@ -1,0 +1,40 @@
+.enquire-form-parent {
+  padding: 40px 20px;
+}
+
+.enquire-form-container {
+  margin: 0px 20px;
+}
+
+.enq-card-header {
+  padding-left: 20px !important;
+  background: black;
+  color: white;
+}
+
+.enquire-formc-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.enq-submit-btn {
+  margin-top: 20px !important;
+  width: 100px;
+}
+
+.enq-img-container > img {
+  width: 100%;
+  height: 500px;
+}
+
+.enq-form-img {
+  width: 90%;
+  height: 350px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .enquire-form-container {
+    margin: 10px 0px;
+  }
+}

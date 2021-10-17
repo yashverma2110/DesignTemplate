@@ -1,0 +1,17 @@
+.logo-med {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #000 !important;
+  cursor: pointer;
+}
+
+.logo-med > img {
+  height: 50px;
+}
+
+.nav-item {
+  font-size: 0.9em !important;
+  color: #000 !important;
+}

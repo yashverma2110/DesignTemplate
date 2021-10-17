@@ -1,0 +1,32 @@
+.review-card-container {
+  padding: 20px;
+}
+
+.review-card {
+  margin: 20px;
+}
+
+.review-title {
+  display: flex;
+  align-items: center;
+}
+
+.rating-parent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating-control {
+  margin-bottom: 10px;
+}
+
+.testimonial-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-form {
+  display: flex;
+  flex-direction: column;
+}
